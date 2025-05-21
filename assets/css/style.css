@@ -422,10 +422,16 @@ header .btn-sign-up{
     margin-top: 135px;
     padding: 96px 0 ;
     background:#2E2100;
+    
 }
-
-.feedback-item {
+.feedback-list {
     display: flex;
+    overflow: hidden;
+}
+.feedback-item {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .feedback-item .avatar{
